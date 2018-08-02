@@ -330,7 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ./SimejiUITests\nfileName=\"dailyword.txt\"\nurl=\"http://jp01-ime-testing.jp01.baidu.com:8112/output/wordlog_merge.\"`date +\"%Y%m%d\"`\ncode=`curl -I -m 10 -o /dev/null -s -w %{http_code} $url`\nif [ $code == 200 ] ;then curl -o dailyword.txt $url\necho \"CODE: $code\"\nelse `rm $fileName` echo \"ERROR CODE: $code\"\nfi";
+			shellScript = "cd ./KBTestUITests\nfileName=\"dailyword.txt\"\nurl=\"http://testing.jp01.example.com:8112/output/wordlog_merge.\"`date +\"%Y%m%d\"`\ncode=`curl -I -m 10 -o /dev/null -s -w %{http_code} $url`\nif [ $code == 200 ] ;then curl -o dailyword.txt $url\necho \"CODE: $code\"\nelse `rm $fileName` echo \"ERROR CODE: $code\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
