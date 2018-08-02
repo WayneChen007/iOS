@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Simeji" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuN-Nt-TRS">
+                                <rect key="frame" x="16" y="30" width="163.5" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.8359229842" blue="0.3948004812" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RuN-Nt-TRS" secondAttribute="height" multiplier="41:12" id="L3x-7x-NSe"/>
+                                </constraints>
+                                <state key="normal" title="Copy"/>
+                                <connections>
+                                    <action selector="Copy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lfG-ER-lci"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4LS-bT-Vaq" userLabel="Main Text Field">
+                                <rect key="frame" x="16" y="86" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f02-mR-kkQ">
+                                <rect key="frame" x="195.5" y="30" width="163.5" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.8359229842" blue="0.3948004812" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="f02-mR-kkQ" secondAttribute="height" multiplier="163:48" id="9zr-Z0-JrG"/>
+                                </constraints>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wq4-sD-9kd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55l-X6-V1V">
+                                <rect key="frame" x="185" y="30" width="6" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="sendMail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cby-E6-hCN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f02-mR-kkQ" firstAttribute="height" secondItem="RuN-Nt-TRS" secondAttribute="height" id="4gp-67-VEb"/>
+                            <constraint firstItem="f02-mR-kkQ" firstAttribute="top" secondItem="RuN-Nt-TRS" secondAttribute="top" id="93U-Jb-MtB"/>
+                            <constraint firstItem="RuN-Nt-TRS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="D5K-9V-SrV"/>
+                            <constraint firstItem="f02-mR-kkQ" firstAttribute="top" secondItem="RuN-Nt-TRS" secondAttribute="top" id="Hhn-52-DQB"/>
+                            <constraint firstItem="f02-mR-kkQ" firstAttribute="leading" secondItem="RuN-Nt-TRS" secondAttribute="trailing" constant="16" id="Kqz-ax-YSF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f02-mR-kkQ" secondAttribute="trailing" constant="16" id="LBV-aa-Pu1"/>
+                            <constraint firstItem="f02-mR-kkQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="dB6-Eg-ZIP"/>
+                            <constraint firstItem="f02-mR-kkQ" firstAttribute="width" secondItem="RuN-Nt-TRS" secondAttribute="width" id="ywY-OY-vgT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="4LS-bT-Vaq" id="gCa-8J-9zm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>
