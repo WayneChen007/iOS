@@ -1,6 +1,6 @@
 //
 //  Keyboard.swift
-//  SimejiUITests
+//  KBTestUITests
 //
 //  Created by Wayne on 2018/6/6.
 //  Copyright © 2018年 Wayne. All rights reserved.
@@ -224,7 +224,7 @@ class Keyboard{
         }else if isPunctuationView(){
             self.CURRENT_VIEW = Keyboard.punctuationView
         }else{
-            debugPrint("DEBUG: not simeji Keyboard!")
+            debugPrint("DEBUG: not support!")
             raise(1)
         }
     }

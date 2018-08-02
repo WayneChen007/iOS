@@ -1,6 +1,6 @@
 //
-//  SimejiUITests.swift
-//  SimejiUITests
+//  KBTestUITests.swift
+//  KBTestUITests
 //
 //  Created by Wayne on 2018/6/4.
 //  Copyright © 2018年 Wayne. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SimejiUITests: XCTestCase {
+class KBTestUITests: XCTestCase {
     
     let app: XCUIElement = XCUIApplication()
     var lowerCase: Bool = false

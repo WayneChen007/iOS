@@ -528,7 +528,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KBTest",
 				);
-				INFOPLIST_FILE = Simeji/Info.plist;
+				INFOPLIST_FILE = KBTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -554,7 +554,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KBTest",
 				);
-				INFOPLIST_FILE = Simeji/Info.plist;
+				INFOPLIST_FILE = KBTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -576,13 +576,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFQY3847PH;
-				INFOPLIST_FILE = SimejiTests/Info.plist;
+				INFOPLIST_FILE = KBTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.SimejiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.KBTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -597,13 +597,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFQY3847PH;
-				INFOPLIST_FILE = SimejiTests/Info.plist;
+				INFOPLIST_FILE = KBTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.SimejiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.KBTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -620,21 +620,21 @@
 				DEVELOPMENT_TEAM = NFQY3847PH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Simeji",
+					"$(PROJECT_DIR)/KBTest",
 				);
-				INFOPLIST_FILE = SimejiUITests/Info.plist;
+				INFOPLIST_FILE = KBTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.SimejiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.KBTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Simeji;
+				TEST_TARGET_NAME = KBTest;
 			};
 			name = Debug;
 		};
@@ -647,21 +647,21 @@
 				DEVELOPMENT_TEAM = NFQY3847PH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Simeji",
+					"$(PROJECT_DIR)/KBTest",
 				);
-				INFOPLIST_FILE = SimejiUITests/Info.plist;
+				INFOPLIST_FILE = KBTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.SimejiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayne.KBTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Simeji;
+				TEST_TARGET_NAME = KBTest;
 			};
 			name = Release;
 		};

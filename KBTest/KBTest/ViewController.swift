@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Simeji
+//  KBTest
 //
 //  Created by Wayne on 2018/6/4.
 //  Copyright © 2018年 Wayne. All rights reserved.

@@ -1,15 +1,15 @@
 //
-//  SimejiTests.swift
-//  SimejiTests
+//  KBTestTests.swift
+//  KBTestTests
 //
 //  Created by Wayne on 2018/6/4.
 //  Copyright © 2018年 Wayne. All rights reserved.
 //
 
 import XCTest
-@testable import Simeji
+@testable import KBTest
 
-class SimejiTests: XCTestCase {
+class KBTestTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

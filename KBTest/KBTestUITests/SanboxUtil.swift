@@ -1,6 +1,6 @@
 //
 //  SanboxUtil.swift
-//  SimejiUITests
+//  KBTestUITests
 //
 //  Created by Wayne on 2018/6/22.
 //  Copyright © 2018年 Wayne. All rights reserved.
